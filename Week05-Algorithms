@@ -1,0 +1,18 @@
+Select one or more choices from the list of common Machine Learning Algorithms, do some investigations and write me a short summary. I am looking for the following: 
+
+•	Select -> Linear Regression 
+
+•	Is it Supervised/Unsupervised/Reinforcement learning? 
+Linear Regression is supervised learning.
+
+•	What does the algorithm do? 
+It finds the correlations between dependent and independent variables. It helps predict the continuous variables such as price, salary, age.
+
+•	In which situations will it be most useful? 
+Predicting continuous values such as Market Trends or House prices.
+
+•	(Optional) Can you find any examples of where this algorithm has been used? 
+Understand the relationship between advertising spending and revenue.
+understand the relationship between drug dosage and blood pressure of patients.
+
+
