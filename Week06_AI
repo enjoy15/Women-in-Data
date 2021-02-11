@@ -1,0 +1,106 @@
+Practical: Artificial
+Intelligence (AI)
+
+In Data Science we process a lot data through AI. With the GDPR, it is becoming increasingly important to understand the ethics behind the data that is collected, stored, processed and evaluated.
+Your task is to:
+
+• Find out what Responsible AI is?
+
+https://ai.brainalyzed.com/responsible-ai/
+
+Responsible AI is a framework that registers how an organization is addressing the challenges around artificial intelligence (AI) from an ethical and legal perspective. An essential driver for responsible AI initiatives is to resolve uncertainty for where responsibility lies if anything goes wrong.
+
+Until now, the development of acceptable AI standards is left to the wisdom of the data scientists and software developers who write AI algorithms and deploy AI models. It means, steps needed to prevent discrimination and promote transparency differs from one company to another.
+
+Advocates of responsible AI hope that a widely adopted framework of AI governance and best practices will make it easier for companies to make sure their AI is human-centered, interpretable, and explainable.
+
+In large companies, the chief analytics officer (CAO) is responsible for developing, implementing, and monitoring the organization’s Responsible AI governance framework. The information is usually documented on the company’s website, explaining in simple language how the company is addressing accountability to make sure that the use of AI is anti-discriminatory.
+
+
+• Find instances where AI has failed? Or been used maliciously or incorrectly.
+
+https://readwrite.com/2020/07/31/failure-in-artificial-intelligence/
+
+Microsoft AI Chatbot Learns Some Unbecoming Language
+
+AI chatbots have sort of become the norm on social media and other websites. Facebook has a really good one built into Messenger and it’s leveraged as a powerful business tool for providing customer service and jumpstarting conversations with prospects. But AI chatbots aren’t perfect, as exemplified by Microsoft’s AI chatbot, which briefly went by the name of “Tay.”
+
+Released in March 2016 and deployed for Twitter users, Tay was programmed to have casual, natural conversations in the language of typical millennials. But it only lasted 24 hours. What happened? Well, a group of trolls on the site targeted its vulnerabilities and manipulated Tay into making very sexist and racist statements.
+
+Peter Lee, the VP for AI and research at Microsoft, had to issue a public apology for not foreseeing this possibility ahead of time.
+
+Athlete or Felon?
+
+Amazon has a project they call Rekognition. It’s an AI-based facial recognition software that’s marketed to police agencies for use in investigations. It’s essentially supposed to cross analyze images and direct law enforcement officers to possible suspects. The problem is that it’s not very accurate.
+
+In a study by the Massachusetts chapter of the ACLU, dozens of Boston-area athletes’ pictures were run through the system. At least 27 of these athletes – or roughly one-in-six – were falsely matched with mugshots. This included three-time Super Bowl champion Duron Harmon of the New England Patriots.
+
+Can you say, not a good look?
+
+Users Find Flaws in Apple’s Face ID
+
+Apple is always coming up with cutting edge technology. They’ve set the standards in the smartphone and mobile device industry for years. For the most part, they get things right. But sometimes they can be a bit too brash in their marketing. In other words, they like to flex their muscles. As you might expect, this invites haters, trolls, and skeptics to challenge their claims.
+
+One recent example occurred with the release of the iPhone X. Leading up to the launch, Apple had invested a lot of time and marketing dollars into their front-facing facial recognition system that replaced the fingerprint reader as the primary method of accessing the phone. The claim was that the AI component was so smart readers could wear glasses, makeup, etc. without compromising functionality. And that’s essentially true. The problem is that Apple also clearly stated the Face ID technology can’t be spoofed by masks or other techniques.
+
+One Vietnam-based security firm took this as a challenge. And with just $200, they made a mask out of stone powder, glued on some printed 2D “eyes,” and unlocked a phone. This is just a reminder that bold claims can sometimes come back to bite!
+
+Robot Dog Meets Fatal Ending
+
+Who doesn’t love the idea of a robot puppy? You get a cute little machine without the barking, walking, pooping, eating, or expensive vet bills. But if you’re looking for a life partner, you might not want this robodog.
+
+In 2019, a Boston Robotics’ robodog named Spot met a dramatic and untimely onstage death while he was being demoed by the company CEO at a conference in Las Vegas. Tasked with walking, he slowly started to stumble and eventually collapsed to the floor as the audience uncomfortably gasped and chuckled.
+
+Watson Is Not a Doctor
+
+IBM’s Waston is a pretty amazing piece of technology. This smart supercomputer has many accomplishments under his belt, including defeating some of the world’s smartest people in a game of televised Jeopardy. But as much as Watson knows, he’s not to be trusted as a doctor – yet.
+
+In 2018, IBM Watson attempted to launch a medical AI system to make suggestions for treating cancer patients. IBM’s objective was nothing less than to “eradicate cancer.” But it didn’t take long for hospitals and oncologists to see major flaws. At one point, Watson suggested putting a patient with excessive bleeding on a medication that would cause even more bleeding – possibly killing the patient in the process!
+
+IBM has blamed its engineers, stating they programmed Watson with hypotheticals and fictional cases, rather than relying on actual patient data and historical medical charts. Either way, it’s not a good look for Watson. Perhaps he’ll stick to gameshows.
+
+Voice-Spoofing AI Software Cons CEO
+
+Deepfakes are becoming a serious (and alarming) problem. Hackers have found ways to fake voices, pictures, and even video. And in certain cases, the effects are disastrous.
+
+In March 2019, the CEO of a UK-based company got a phone call from his boss over at the German parent company. He was instructed to transfer the equivalent of $243,000 to a Hungarian supplier. The request was marked as urgent and the CEO was told to carry it out right away. The only problem with the request was that it wasn’t his boss on the other end of the line. It was an AI-based software made to mimic the boss’s voice.
+
+While we’re calling this an AI failure, the reality is that the AI software won. It was the humans who got played to the tune of a quarter of a million dollars!
+
+• Implications of when AI fails. There is a specific article in the GDPR Law that covers this, especially with automated decision making. (opt in and out options).
+
+https://www.information-age.com/gdpr-impact-ai-123483399/
+https://pwc.blogs.com/data_protection/2019/01/artificial-intelligence-ai-and-the-gdpr-part-one.html
+
+The vast scope of GDPR has raised fresh challenges — chief among them is the complex interaction between AI and the GDPR. In particular, this shines a spotlight on Article 22, which concerns automated profiling and decision-making, where the incorrect use of personal data can have huge ramifications for the individuals concerned.
+
+The problem is that existing AI system logic takes automated decisions without user consent. Since data is the engine behind AI, Article 22 impacts every industry hoping to leverage the power of technology to drive efficiencies through automated means.
+
+Aiming to instil responsible practices, Article 22 prescribes that AI — including profiling — cannot be used as the sole decision-maker in choices that can have legal or similarly significant impacts on individuals’ rights, freedoms and interests. For instance, an AI model cannot be the only step for deciding whether a borrower is eligible to qualify for a loan.
+
+There are exceptions to the rule in scenarios where the decision is necessary for entering into a contract, when union or member state law authorises such decisions — for example, to detect tax fraud — or when the data subject gives his or her explicit consent. An individual is also able to contest the automated decision and obtain human intervention in the first and third exceptions.
+
+Beyond this, organisations face a process of trial and error in terms of applying this to their own systems, with the added pressure of even the smallest mistake potentially causing very damaging consequences.
+
+Article 22 of the GDPR states that individuals have the right not to be subject to a decision that has a legal or similar effect upon them and, that is based solely on automated decision-making (without human intervention). There are some exemptions to this right; where the use of personal data is necessary to enter into a contract, if the processing is authorised by law or if explicit consent is given by the data subject.
+
+However, even when applying exemptions, organisations must still ensure they are protecting (and be able to demonstrate how) the rights, freedoms and interests of individuals. At the very least, they must ensure the right to human intervention if requested and, in doing so, ensure that individuals have not been disadvantaged through this process.
+
+To ensure that any processing of personal data is lawful, fair and transparent, individuals should be provided with specific, clear and meaningful information about how automated decisions are being made about them.
+
+• What should organisations do to ensure that they are being responsible with AI and the wider use of data in general?
+
+https://pwc.blogs.com/data_protection/2019/01/artificial-intelligence-ai-and-the-gdpr-part-one.html
+
+Organisations therefore need to communicate the following:
+
+- “(M)eaningful information about the logic involved” and “specific information” about how decisions are made (GDPR Article 13, Article 14 & Recital 71) in relation to any automated decision making;
+The “envisaged consequences of such processing for the data subject” (GDPR Article 13 & Article 14);
+- “(S)pecific information” about how decisions are made (GDPR Recital 71);
+- How individuals can exercise their “right to obtain human intervention” (unless a clear exception applies) (GDPR Recital 71); and
+- How individuals can express their point of view and obtain “an explanation of the decisions reached” and, how they can “challenge that decision.” (GDPR Recital 71).
+
+In order to avoid the ‘computer says no’ effect and, to meet their data protection requirements, organisations need to plan the implementation of new AI technologies carefully with a specific focus on protecting individual rights. 
+
+
+
