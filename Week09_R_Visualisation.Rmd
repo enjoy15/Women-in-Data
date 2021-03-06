@@ -1,0 +1,156 @@
+---
+title: "R Visualisation"
+---
+
+Imagine the following scenario:
+You are a data analyst/scientist at an organisation. You have been given a data set and asked to create a meaningful data visualisation using this data.
+
+Using the ggplot in-built data sets in RStudio and the qplot function, get your creative juices flowing and create a meaningful and impactful data visualization using your preferred data set.
+----------------------
+Ggplot data sets 
+Use diamonds dataset →Prices of over 50,000 round cut diamonds
+A dataset containing the prices and other attributes of almost 54,000 diamonds. The variables are as follows:
+
+Format
+A data frame with 53940 rows and 10 variables:
+
+price
+price in US dollars ($326--$18,823)
+
+carat
+weight of the diamond (0.2--5.01)
+
+cut
+quality of the cut (Fair, Good, Very Good, Premium, Ideal)
+
+color
+diamond colour, from D (best) to J (worst)
+
+clarity
+a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))
+
+x
+length in mm (0--10.74)
+
+y
+width in mm (0--58.9)
+
+z
+depth in mm (0--31.8)
+
+depth
+total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)
+
+table
+width of top of diamond relative to widest point (43--95)
+-------------
+Examine dataset
+```{r}
+library(ggplot2)
+head(diamonds)
+```
+Plot relationship between price and clarity of diamonds.
+
+```{r}
+#load library
+library(ggplot2)
+#Plot price vs diamond clarity
+qplot(data = diamonds, x=price, geom = "histogram",
+      main = "Clarity of Diamonds", fill = clarity)
+```
+
+
+Plot relationship between price and carat
+------------------------------------------
+```{r}
+viz <- ggplot(data=diamonds, aes(x=price, y=carat)) +
+       geom_point(aes(color=carat), alpha=.5) +
+       geom_smooth()+
+       labs(title="Diamond Price vs Carat", subtitle="Diamond Dataset from GGplot", x="Price ($)", y="weight of the diamond (Carat)", color = "Carat")
+# Prints the plot
+viz
+```
+
+Histogram of diamond carat
+Majority of diamond has carat less 1.
+
+```{r}
+diamonds_histogram_binwidth <- 
+  ggplot(diamonds, aes(x = carat)) + 
+  labs(title = "Diamond Carat") +
+  geom_histogram(binwidth = 0.1)
+diamonds_histogram_binwidth
+```
+
+
+```{r}
+diamonds_histogram_cut <- 
+  ggplot(diamonds, aes(x = depth)) + 
+  labs(title = "Diamond Depth") +
+  geom_histogram()
+diamonds_histogram_cut
+```
+
+Heatmap
+
+Majority of diamond are color G with Ideal cut.
+
+```{r}
+diamond_heatmap <- 
+  ggplot(diamonds,
+         aes(x = color,
+             y = cut)) +
+  geom_bin2d()
+
+diamond_heatmap
+```
+
+Boxplot
+----------
+carat
+weight of the diamond (0.2--5.01)
+clarity
+a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))
+
+```{r}
+diamond_boxplot <- 
+  ggplot(diamonds, 
+         aes(x = clarity, y = carat))  +
+  geom_boxplot()
+
+diamond_boxplot
+```
+
+Diamond with best clarity tends to have smaller weight than diamond with worst clarity (I1)
+-----------------
+Stacked Bar Plots
+-----------------
+shows the ratios of diamond clarity between the different cuts.
+
+```{r}
+diamond_stackedbar_fill <- 
+  ggplot(diamonds, 
+         aes(x = cut, 
+             y = price, 
+             fill = clarity)) + 
+  geom_col(position = "fill")
+
+diamond_stackedbar_fill
+```
+
+Ideal cut has the highest percentage of IF clarity (the best).
+-----------
+
+
+```{r}
+diamond_clusteredbar <- 
+  ggplot(diamonds, 
+         aes(x = cut, 
+             y = price, 
+             fill = clarity)) +
+  geom_col(position = "dodge")
+
+diamond_clusteredbar
+```
+
+
